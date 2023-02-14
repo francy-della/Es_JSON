@@ -10,6 +10,7 @@ import java.util.ArrayList;
  *
  * @author JENNIFERPAGANIN
  */
+
 public class MiniRobotica {
     public static void main(String[] args) throws IOException {
         //Accesso al file json
