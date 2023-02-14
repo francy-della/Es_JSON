@@ -1,0 +1,44 @@
+{
+    "nome": "Francesca",
+    "cognome": "Dellamano",
+    "codiceFiscale": "DLLFNC04C71F133D",
+    "sesso": "Francesca",
+    "eta": 19,
+    "dataPrelievo": "2022-12-23",
+    "oraPrelievo": "8:15",
+    "luogoPrelievo": "reparto ospedaliero",
+    "esami": [
+      {
+        "nomeEsame": "Emoglobina",
+        "dataEsame": "2022-12-23",
+        "oraEsame": "8:30",
+        "codiceOperatore": "111111111",
+        "strumentiUtilizzati": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "valoreMisurato": 15,
+        "unitaMisura": "g/dL",
+        "valoreMinimo": 13,
+        "valoreMassimo":17
+      },
+      {
+        "nomeEsame": "Glicemia",
+        "dataEsame": "2022-12-23",
+        "oraEsame": "8:30",
+        "codiceOperatore": "222222222",
+        "strumentiUtilizzati": [
+          0,
+          2,
+          3
+        ],
+        "valoreMisurato": 87,
+        "unitaMisura": "mg/dL",
+        "valoreMinimo": 60,
+        "valoreMassimo":110
+      }
+    ]
+}
