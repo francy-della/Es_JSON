@@ -15,7 +15,7 @@ public class MiniRobotica {
     public static void main(String[] args) throws IOException {
         //Accesso al file json
         Gson fileGson = new Gson();
-        byte[] content = Files.readAllBytes(Paths.get("Gare.json"));
+        byte[] content = Files.readAllBytes(Paths.get("src\\main\\java\\com\\mycompany\\mini\\robotica\\gare.json"));
         String fileJson = new String(content);
         Gara[] gara = fileGson.fromJson(fileJson, Gara[].class);
         //Inizializzazione Arralist per le squadre
