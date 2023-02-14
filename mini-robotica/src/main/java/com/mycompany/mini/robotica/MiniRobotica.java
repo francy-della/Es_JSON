@@ -12,15 +12,15 @@ import java.util.ArrayList;
  */
 public class MiniRobotica {
     public static void main(String[] args) throws IOException {
-        //accesso al file json
+        //Accesso al file json
         Gson fileGson = new Gson();
         byte[] content = Files.readAllBytes(Paths.get("Gare.json"));
         String fileJson = new String(content);
         Gara[] gara = fileGson.fromJson(fileJson, Gara[].class);
-      
+        //Inizializzazione Arralist per le squadre
         ArrayList <Squadra> squadre = new ArrayList<>();
         boolean presente = false;
-
+        //For per stampare a video le squadre
         for (Gara G : gara) {
             presente = false;
             System.out.println(G);
@@ -36,7 +36,7 @@ public class MiniRobotica {
             if(!presente)
                 squadre.add(new Squadra(G.getSquadra(), G.getCoreDifficolta()+ G.getCorePercorso(), G.getTempo()));
         }
-        
+        //stampa a video dei dati delle squadre (solo nome, punteggio e tempo)
         System.out.println("\nSQUADRE");
         System.out.println("-------------------");
         for(Squadra sq : squadre){
