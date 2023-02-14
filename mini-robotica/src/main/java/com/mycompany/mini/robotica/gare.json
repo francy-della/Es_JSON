@@ -1,0 +1,47 @@
+[
+    {
+      "campo": "F",
+      "giudice": "Pamela",
+      "squadra": "Gialla",
+      "ora": "14:22:11",
+      "corePercorso": 80,
+      "coreDifficolta": 100,
+      "tempo": 540
+    },
+    {
+      "campo": "B",
+      "giudice": "Patrizio",
+      "squadra": "Rossa",
+      "ora": "11:10:09",
+      "corePercorso": 40,
+      "coreDifficolta": 90,
+      "tempo": 449
+    },
+    {
+      "campo": "A",
+      "giudice": "Augusto",
+      "squadra": "Verde",
+      "ora": "19:01:01",
+      "corePercorso": 102,
+      "coreDifficolta": 150,
+      "tempo": 602
+    },
+    {
+      "campo": "H",
+      "giudice": "Patrizio",
+      "squadra": "Arancione",
+      "ora": "22:00:00",
+      "corePercorso": 88,
+      "coreDifficolta": 120,
+      "tempo": 555
+    },
+    {
+      "campo": "C",
+      "giudice": "Carmine",
+      "squadra": "Nera",
+      "ora": "21:21:21",
+      "corePercorso": 30,
+      "coreDifficolta": 68,
+      "tempo": 634
+    }
+]
