@@ -149,6 +149,6 @@ public class AnalisiDelSangue {
                 System.out.println(" -> Il valore è inferiore alla norma!");
             }
             System.out.println("--------------------------------------------------------------");
-        }
+        }
     }
 }
