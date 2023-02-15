@@ -1,0 +1,55 @@
+[
+  {
+    "nome": "Emocromo",
+    "TdopoPrelievo": 47,
+    "strumenti": [
+      {
+        "matricola": 4,
+        "operatoriAbilitati": [
+          "1234",
+          "9876"
+        ]
+      },
+      {
+        "matricola": 1,
+        "operatoriAbilitati": [
+          "1234",
+          "3450"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Ezotemia",
+    "TdopoPrelievo": 11,
+    "strumenti": [
+      {
+        "matricola": 8,
+        "operatoriAbilitati": [
+          "2255",
+          "1234"
+        ]
+      },
+      {
+        "matricola": 2,
+        "operatoriAbilitati": [
+          "1346",
+          "0034",
+          "3355"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "ALT",
+    "TdopoPrelievo": 12,
+    "strumenti": [
+      {
+        "matricola": 9,
+        "operatoriAbilitati": [
+          "1234"
+        ]
+      }
+    ]
+  }
+]
