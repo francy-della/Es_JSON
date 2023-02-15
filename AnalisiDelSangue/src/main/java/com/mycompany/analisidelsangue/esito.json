@@ -1,44 +1,40 @@
 {
-    "nome": "Francesca",
-    "cognome": "Dellamano",
-    "codiceFiscale": "DLLFNC04C71F133D",
-    "sesso": "Francesca",
-    "eta": 19,
-    "dataPrelievo": "2022-12-23",
-    "oraPrelievo": "8:15",
+    "nome": "Jennifer",
+    "cognome": "Paganin",
+    "codice_fiscale": "JPNPGN16A01T512F",
+    "sesso": "Femmina",
+    "eta": 18,
+    "dataPrelievo": "2023-01-01",
+    "oraPrelievo": "08:08",
     "luogoPrelievo": "reparto ospedaliero",
     "esami": [
       {
-        "nomeEsame": "Emoglobina",
-        "dataEsame": "2022-12-23",
-        "oraEsame": "8:30",
-        "codiceOperatore": "111111111",
-        "strumentiUtilizzati": [
-          0,
+        "denominazione": "Emocromo",
+        "data": "2022-02-08",
+        "ora": "12:12",
+        "codiceOperatore": "1234",
+        "strumenti": [
           1,
-          2,
-          3,
           4
         ],
-        "valoreMisurato": 15,
-        "unitaMisura": "g/dL",
-        "valoreMinimo": 13,
-        "valoreMassimo":17
+        "valore": 12,
+        "unitaMisura": "mg/dL",
+        "valoreMinimo": 8,
+        "valoreMassimo":20
       },
       {
-        "nomeEsame": "Glicemia",
-        "dataEsame": "2022-12-23",
-        "oraEsame": "8:30",
-        "codiceOperatore": "222222222",
-        "strumentiUtilizzati": [
-          0,
-          2,
-          3
+        "denominazione": "Azotemia",
+        "data": "2023-03-11",
+        "ora": "14:02",
+        "codiceOperatore": "5656",
+        "strumenti": [
+          4,
+          5
         ],
-        "valoreMisurato": 87,
+        "valore": 101,
         "unitaMisura": "mg/dL",
-        "valoreMinimo": 60,
-        "valoreMassimo":110
+        "valoreMinimo": 40,
+        "valoreMassimo":80
       }
     ]
 }
