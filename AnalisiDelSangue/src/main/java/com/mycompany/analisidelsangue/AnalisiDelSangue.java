@@ -84,10 +84,10 @@ public class AnalisiDelSangue {
         Gson gson1 = new Gson();
         Gson gson2 = new Gson();
         //ACCESSO AI 2 FILE JSON
-        byte[] content = Files.readAllBytes(Paths.get("src\\main\\java\\com\\mycompany\\analisisangue\\esito.json"));
+        byte[] content = Files.readAllBytes(Paths.get("src\\main\\java\\com\\mycompany\\analisidelsangue\\esito.json"));
         String jsonEsito = new String(content);
         Esito esitoJson = gson1.fromJson(jsonEsito, Esito.class);
-        byte[] content2 = Files.readAllBytes(Paths.get("src\\main\\java\\com\\mycompany\\analisisangue\\analisi.json"));
+        byte[] content2 = Files.readAllBytes(Paths.get("src\\main\\java\\com\\mycompany\\analisidelsangue\\analisi.json"));
         String json1 = new String(content2);
         Analisi[] A = gson2.fromJson(json1, Analisi[].class);
   
